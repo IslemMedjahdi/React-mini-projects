@@ -1,6 +1,13 @@
 # React-mini-projects
 fast react tasks and projects for practicing
 
+
+
+### Live previews : 
+
+- **[typing speed test](https://typing-test-islemmedjahdi.vercel.app/)**
+- **[Dev finder](https://github-devfinder-medjahdi.netlify.app/)**
+
 ### tools : 
 	- ReactJS
 	- TailwindCSS
@@ -20,8 +27,4 @@ fast react tasks and projects for practicing
 		`npm install`
 	- then : 
 		`npm start`
-
-### Live previews : 
-
-
 
