@@ -1,11 +1,10 @@
-import { useLayoutEffect, useState } from "react";
-import { useEffect } from "react/cjs/react.development";
+import { useLayoutEffect, useState,useEffect } from "react";
 import Input from "./components/Input";
 import Textarea from "./components/Textarea";
 
 const App = () => {
   const [value, setValue] = useState("");
-  const [text, setText] = useState("Walt: Mike is retiring from our crew, so his share of the partnership is available if you can handle his end. Distribution. And if you give him five million dollars of the fifteen million that you brought today. Just think of it as a finder's fee for bringing us together. We have forty pounds of product ready to ship. Ready to go. Are you ready?Declan: Who the hell are you?\nWalt: You know. You all know exactly who I am. Say my name.Declan: What? I don't have a damn clue who the hell you are.Walt: Yeah, you do. I'm the cook. I'm the man who killed Gus Fring.Declan: Bullshit. Cartel got Fring.Walt: Are you sure? That's right. Now. Say my name. Declan: You're Heisenberg. Walt: You're goddamn right.");
+  const text = "Walt: Mike is retiring from our crew, so his share of the partnership is available if you can handle his end. Distribution. And if you give him five million dollars of the fifteen million that you brought today. Just think of it as a finder's fee for bringing us together. We have forty pounds of product ready to ship. Ready to go. Are you ready?Declan: Who the hell are you?\nWalt: You know. You all know exactly who I am. Say my name.Declan: What? I don't have a damn clue who the hell you are.Walt: Yeah, you do. I'm the cook. I'm the man who killed Gus Fring.Declan: Bullshit. Cartel got Fring.Walt: Are you sure? That's right. Now. Say my name. Declan: You're Heisenberg. Walt: You're goddamn right.";
   const [time, setTime] = useState(60);
   const [start,setStart] = useState(false);
   useLayoutEffect(() => {
